@@ -10,6 +10,5 @@ def armstrong_no(x):
   print("armstrong number")
  else:
   print("not an armstrong number") 
-x=int(input("enter no."))
-w=armstrong_no(x)
-print(w)
+
+
