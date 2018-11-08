@@ -692,4 +692,4 @@ elif symptom1=="allergy":
                                           msgbox("1:Hydrocortisone cream,2:Benadryl,3:Cortizone")
                                        elif choice=="Ointments":
                                             msgbox("1:Calamine lotion, 2:Antihistamines, 3:Aclovate Ointment")
-                                            msgbox(" Hope our analysis helped you . Please remember, applying skin moisturizers and soothing skin remedies are the basic and the most helpfull ways to avoid the Allergy ")       
+                                            msgbox(" Hope our analysis helped you . Please remember, applying skin moisturizers and soothing skin remedies are the basic and the most helpfull ways to avoid the Allergy ")    
