@@ -1,55 +1,55 @@
-from easygui import *
+from easygui import *             # Importing easy gui  library 
 import sys
-while 1:
+while 1:                             # while 1 loop
  msgbox("WELCOME TO ONLINE SHOPPING!")
  msg ="WhICH SITE WOULD YOU PREFER?"
  title = "ONLINE DIWALI SHOPPING"
  choices = ["amazon", "flipkart", "myntra", "snapdeal"]
  choice = choicebox(msg, title, choices)
  #msgbox("You chose: " + str(choice), "please press ok")
- if choice=="amazon":
+ if choice=="amazon":                          # nested if loop 
     msg1="what do you want on this diwali"
     title1="ONLINE DIWALI SHOPPING"
     choices1=["electronics","tv","clothes","sports"]
     choice1=choicebox(msg1,title1,choices1)
    # msgbox("You chose: " + str(choice1), "please press ok")
-    if choice1=="electronics":
+    if choice1=="electronics":                          # nested if loop      
        msg2="what do you want on this diwali"
        title2="ONLINE DIWALI SHOPPING"
        choices2=["mobile","computer","laptop"]
        choice2=choicebox(msg2,title2,choices2)
       # msgbox("You chose: " + str(choice2), "please press ok")
-       if choice2=="mobile":
+       if choice2=="mobile":                                          # nested if loop    
             msg3="select the brand"
             title3="ONLINE DIWALI SHOPPING"
             choices3=["asus","samsung","oneplus"]
             choice3=choicebox(msg3,title3,choices3)
            # msgbox("You chose: " + str(choice3), "please press ok")
-            if choice3=="asus":
+            if choice3=="asus":                                            # nested if loop      
                  msg4="please select the model"
                  title4="ONLINE DIWALI SHOPPING"
                  choices4=["asus1","asus2"]
                  choice4=choicebox(msg4,title4,choices4)
                 # msgbox("You chose: " + str(choice4), "please press ok")
-    elif choice1=="clothes":
+    elif choice1=="clothes":                                                  # nested if loop 
          msg2="what do you want on this diwali"
          title2="ONLINE DIWALI SHOPPING"
          choices2=["jeans","trousers","shirts"]
          choice2=choicebox(msg2,title2,choices2)
         # msgbox("You choose: " + str(choice2), "please press ok")
-         if choice2=="jeans":
+         if choice2=="jeans":                                                                 # nested if loop 
                 msg3="select the brand"
                 title3="ONLINE DIWALI SHOPPING"
                 choices3=["nike","pantaloons","levis"]
                 choice3=choicebox(msg3,title3,choices3)
                # msgbox("You chose: " + str(choice3), "please press ok")
-                if choice3=="levis":
+                if choice3=="levis":                                                   # nested if loop 
                      msg4="please select the model"
                      title4="ONLINE DIWALI SHOPPING"
                      choices4=["size=xl","size=xxl"]
                      choice4=choicebox(msg4,title4,choices4)
                     # msgbox("You chose: " + str(choice4), "please press ok")
-    elif choice1=="tv":
+    elif choice1=="tv":                                                          
          msg2="select the brand of the tv"
          title2="ONLINE DIWALI SHOPPING"
          choices2=["sony","samsung","panasonic"]
