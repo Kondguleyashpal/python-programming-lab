@@ -1,3 +1,6 @@
+### Title: Online Shopping 
+########  Name : Yashpal Kondgule M 31
+
 from easygui import *             # Importing easy gui  library 
 import sys
 while 1:                             # while 1 loop
