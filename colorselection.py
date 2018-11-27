@@ -1,4 +1,6 @@
-from easygui import *
+#### Title:To select a Colour
+  ####### Name: Yashpal Kondgule M 31 
+from easygui import *   # importing easy gui library
 import sys
 while 1:
     msgbox("Hello, world!")
