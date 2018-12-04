@@ -1,11 +1,19 @@
-from easygui import *
+
+### Tiltle Online Shopping
+
+### Name Yashpal Kondgule M 31
+
+
+
+
+rom easygui import *         # importing easy gui library. 
 import sys
 while 1:
     msgbox("welcoome to online shop")
 
     msg ="what you want to buy?"
     title = "online shopping"
-    choices = ["washing machine", "Refrigerator"]
+    choices = ["ashing machine", "Refrigerator"]
     choice = choicebox(msg, title, choices)
 
     # note that we convert choice to string, in case
@@ -26,7 +34,7 @@ while 1:
          choice4=["140ltr.","145 ltr.","150ltr."]
          chose4=buttonbox(chose,choices4)
          msgbox=("you chose:"+str(chose4))
-    elif choice=="washing machine":
+    elif choice=="washing machine": ### elif condition
          choices5=["LG","samsung","videocon"]
          chose5=buttonbox(choice,choices5)
          if chose5=="LG":
