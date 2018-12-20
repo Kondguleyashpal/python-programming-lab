@@ -1,3 +1,11 @@
+# leader- yashpal kondgule M 31
+# member 2- pratik kadam M 24 
+# member 3- pragati kate M 30
+# member 4- tejas karwa M 29
+# member 5- shubham mane M 38 
+# member 6- anand malani M 37
+#Topic- assitant doctor 
+#explanation _ It studies the symptoms of the patient by asking some questions and then gives the preference of medicines 
 from  easygui import *
 import sys
 name=enterbox("Please enter your name")
